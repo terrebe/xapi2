@@ -1,1 +1,1 @@
-console.log('hi from contact page script');
+console.log('hi from contact page script!');
