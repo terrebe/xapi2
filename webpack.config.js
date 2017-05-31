@@ -2,15 +2,15 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var webpack = require('webpack');
 var path = require("path");
-var tincan - require("tincan");
+//var tincan - require("tincan");
 //var myApp = new tincan("IM xAPI","778f48b68331df","a14a9bf93e57a3");
 
 var isProd = process.env.NODE_ENV === 'production'; //true or false
-var cssDev = ['style-loader','css-loader','sass-loader'];
+var cssDev = ['style-loader', 'css-loader', 'sass-loader'];
 var cssProd = ExtractTextPlugin.extract({
           fallback: 'style-loader',
           loader: ['css-loader','sass-loader'],
-          publicPath: 'dist'
+          publicPath: '/dist'
         })
 var cssConfig = isProd ? cssProd : cssDev;
 
@@ -30,9 +30,12 @@ module.exports = {
         use: cssConfig
       },
       {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: 'babel-loader'
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        use: [
+          //'file-loader?name=images/[name].[ext]',
+          'file-loader?name=[name].[ext]&outputPath=images/',
+          'image-webpack-loader'
+          ]
       }
     ]
   },
