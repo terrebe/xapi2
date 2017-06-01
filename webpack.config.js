@@ -10,7 +10,7 @@ var cssDev = ['style-loader', 'css-loader', 'sass-loader'];
 var cssProd = ExtractTextPlugin.extract({
           fallback: 'style-loader',
           loader: ['css-loader','sass-loader'],
-          publicPath: '/dist'
+          publicPath: './'
         })
 var cssConfig = isProd ? cssProd : cssDev;
 
@@ -20,7 +20,7 @@ module.exports = {
     contact: './src/contact.js'
   },
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, 'dist'),
     filename: '[name].bundle.js'
   },
   module: {
@@ -40,7 +40,7 @@ module.exports = {
     ]
   },
   devServer: {
-    contentBase: path.join(__dirname, "dist"),
+    contentBase: path.join(__dirname, 'dist'),
     compress: true,
     hot: true,
     stats: "errors-only",
