@@ -87,7 +87,7 @@ module.exports = {
             template: './src/index.html'
         }),
         new ExtractTextPlugin({
-            filename: 'css/[name].css',
+            filename: './css/[name].css',
             disable: !isProd,
             allChunks: true
         }),
