@@ -37,6 +37,7 @@
     "sass-loader": "^4.1.1",
     "sass-resources-loader": "^1.2.1",
     "style-loader": "^0.13.1",
+    "tincanjs": "^0.50.0",
     "url-loader": "^0.5.8",
     "webpack": "^2.2.0",
     "webpack-dev-server": "^2.2.0"

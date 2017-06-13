@@ -1,0 +1,254 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"true",
+				"fs.truncateSync(path, len);"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "GitGutter",
+		"selected_items":
+		[
+			[
+				"GitGutter",
+				"Preferences: GitGutter Settings"
+			],
+			[
+				"read",
+				"ReadmePlease"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"readm",
+				"ReadmePlease"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Ben/Documents/projects/xapi2/dist/index.html",
+		"/Users/Ben/Documents/projects/xapi2/src/index.html",
+		"/Users/Ben/Documents/projects/xapi2/src/app.js",
+		"/Users/Ben/Documents/projects/xapi2/src/config.js",
+		"/Users/Ben/Documents/projects/xapi2/webpack.config.js",
+		"/Users/Ben/Documents/projects/xapi2/dist/bootstrap.bundle.js",
+		"/Users/Ben/Documents/projects/xapi2/dist/app.bundle.js",
+		"/Users/Ben/Documents/projects/xapi2/src/bootstrap/customizations.scss",
+		"/Users/Ben/Documents/projects/xapi2/src/app.scss",
+		"/Users/Ben/Documents/projects/xapi2/node_modules/bootstrap-loader/extractStyles.js",
+		"/Users/Ben/Documents/projects/xapi2/dist/css/bootstrap.css",
+		"/Users/Ben/Documents/projects/xapi2/.bootstraprc",
+		"/Users/Ben/Documents/projects/xapi2/package.json",
+		"/Users/Ben/Documents/projects/xapi2/webpack.bootstrap.config.js",
+		"/Users/Ben/Documents/projects/xapi2/npm-debug.log",
+		"/Users/Ben/Documents/projects/xapi2/src/resources.scss",
+		"/Users/Ben/Documents/projects/xapi2/dist/app.css",
+		"/Users/Ben/Documents/projects/xapi2/.babelrc",
+		"/Users/Ben/Documents/projects/xapi2/src/contact.html",
+		"/Users/Ben/Documents/projects/xapi2/src/contact.js",
+		"/Users/Ben/Documents/projects/xapi2/src/TinCan.LRS",
+		"/Users/Ben/Library/Application Support/Sublime Text 3/Packages/GitGutter/README.md",
+		"/Users/Ben/Documents/projects/xapi2/dist/index-old.html",
+		"/Users/Ben/Documents/projects/xapi/webpack.config.js",
+		"/Users/Ben/Documents/projects/xapi/src/index.js",
+		"/Users/Ben/Documents/projects/react-js-essential-training/Ex_Files_React_EssT/Ch02/02_05/finish/src/index.js",
+		"/Users/Ben/Documents/projects/react-js-essential-training/Ex_Files_React_EssT/Ch02/02_04/finish/src/index.js",
+		"/Users/Ben/Documents/projects/react-js-essential-training/Ex_Files_React_EssT/Ch02/02_04/finish/dist/bundle.js",
+		"/Users/Ben/Documents/projects/xapi/dist/index.html",
+		"/Users/Ben/Documents/projects/xapi/package.json",
+		"/Users/Ben/Documents/projects/xapi/.babelrc",
+		"/Users/Ben/Documents/projects/react-js-essential-training/Ex_Files_React_EssT/Ch02/02_01/start/dist/index.html",
+		"/Users/Ben/Documents/projects/react-js-essential-training/Ex_Files_React_EssT/Ch02/02_01/start/dist/index.js",
+		"/Users/Ben/Downloads/learn-fullstack-javascript-master/public/about.html",
+		"/Users/Ben/Library/Application Support/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/Users/Ben/Library/Application Support/Sublime Text 3/Packages/SideBarEnhancements/readme.md",
+		"/Users/Ben/Library/Application Support/Sublime Text 3/Packages/Gutter Color/README.md",
+		"/Users/Ben/Library/Application Support/Sublime Text 3/Packages/Gutter Color/GutterColor.sublime-settings",
+		"/Users/Ben/Library/Application Support/Sublime Text 3/Packages/User/GutterColor.sublime-settings",
+		"/Users/Ben/Library/Application Support/Sublime Text 3/Packages/backrefs/readme.md",
+		"/Users/Ben/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Ben/Documents/projects/learngit/this is a file to delete2.txt",
+		"/Users/Ben/Documents/projects/learngit/file_to_delete1.txt",
+		"/Users/Ben/Documents/projects/learngit/third_file.txt",
+		"/Users/Ben/Documents/projects/learngit/second_file.txt",
+		"/Users/Ben/Documents/projects/learngit/first_file.txt",
+		"/Users/Ben/Desktop/third_file.txt",
+		"/Users/Ben/Desktop/second_file.txt",
+		"/Users/Ben/Desktop/first_file.txt"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"lrs",
+			"tincan",
+			"$color-code",
+			"$color-code;",
+			"\"$color-code\"",
+			"$color-code",
+			"xapi",
+			"dist"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mern.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 212.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

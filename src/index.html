@@ -6,6 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Webpack 2 and Twitter Bootstrap</title>
+    <script src="config.js"></script>
+<script>
+    var statement = new TinCan.Statement(
+    {
+        actor: {
+            mbox: "mailto:info@tincanapi.com"
+        },
+        verb: {
+            id: "http://adlnet.gov/expapi/verbs/experienced"
+        },
+        target: {
+            id: "http://rusticisoftware.github.com/TinCanJS"
+        }
+    }
+);
+</script>
+<script>
+lrs.saveStatement(
+    statement,
+    {
+        callback: function (err, xhr) {
+            if (err !== null) {
+                if (xhr !== null) {
+                    console.log("Failed to save statement: " + xhr.responseText + " (" + xhr.status + ")");
+                    // TODO: do something with error, didn't save statement
+                    return;
+                }
+
+                console.log("Failed to save statement: " + err);
+                // TODO: do something with error, didn't save statement
+                return;
+            }
+
+            console.log("Statement saved");
+            // TOOO: do something with success (possibly ignore)
+        }
+    }
+);
+</script>
 </head>
 
 <body>

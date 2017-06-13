@@ -5,6 +5,7 @@ const path = require("path");
 const bootstrapEntryPoints = require('./webpack.bootstrap.config');
 const glob = require('glob');
 const PurifyCSSPlugin = require('purifycss-webpack');
+const TinCan = require('tincanjs');
 
 const isProd = process.env.NODE_ENV === 'production'; //true or false
 const cssDev = [
